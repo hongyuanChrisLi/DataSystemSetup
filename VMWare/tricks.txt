@@ -1,0 +1,8 @@
+Run VMWare Play (Free Version) in the background
+1. Go to C:\Users\[username]\AppData\Roaming\VMware
+
+2. Add the following to file preferences.ini
+
+pref.vmplayer.exit.vmAction = "disconnect"
+
+3. Kill VMWare process throw task manager
