@@ -15,4 +15,13 @@ CASSANDRA_HOME=/opt/cassandra/apache-cassandra-3.9
 ${CASSANDRA_HOME}/bin/cassandra -f
 
 # 7. stop cassandra
+ ps -ef | grep -i cassandra
+
 pkill -f CassandraDaemon
+
+# 8. Install python pip
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python get-pip.py
+
+# 9. install cassandra-driver
+pip install cassandra-driver
