@@ -6,3 +6,5 @@ Run VMWare Play (Free Version) in the background
 pref.vmplayer.exit.vmAction = "disconnect"
 
 3. Kill VMWare process throw task manager
+
+4. Open the VMWare GUI to shut down the virtual machine
