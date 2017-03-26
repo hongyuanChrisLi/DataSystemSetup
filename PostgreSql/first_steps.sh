@@ -14,3 +14,6 @@ GRANT ALL ON DATABASE mls TO mlsuser;
 
 psql -d postgres
 
+
+# decript table 
+\d+ table_name
