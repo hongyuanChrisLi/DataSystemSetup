@@ -1,0 +1,14 @@
+
+# copy database from mls to mlsl
+
+cmd> mysqldump -u root -p mls > mls.sql
+
+cmd> mysql -u root
+
+mysql> create database mlsl;
+
+# doesn't work cmd> mysqldump -u root -p --databases mlsl < mls.sql
+
+mysql> use mlsl;
+
+mysql> source dir/mls.sql
